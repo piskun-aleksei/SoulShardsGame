@@ -1,0 +1,40 @@
+﻿Build started 11.12.2014 21:12:33.
+     1>Project "D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\MyProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MyProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         MyProject.vcxproj -> D:\Мои документы\Visual Studio 2010\Projects\MyProject\Debug\MyProject.exe
+       PostBuildEvent:
+         
+         copy /Y "D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\*.dll" "D:\Мои документы\Visual Studio 2010\Projects\MyProject\Debug\" &&^
+         copy /Y "D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\*.png" "D:\Мои документы\Visual Studio 2010\Projects\MyProject\Debug\" &&^
+         copy /Y "D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\*.ttf" "D:\Мои документы\Visual Studio 2010\Projects\MyProject\Debug\" &&^
+         copy /Y "D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\*.ogg" "D:\Мои документы\Visual Studio 2010\Projects\MyProject\Debug\"
+               
+         :VCEnd
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\libsndfile-1.dll
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\openal32.dll
+         Скопировано файлов:         2.
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\endGame.png
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\pause.png
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\skeleton.png
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\startGame.png
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\tile.png
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\win.png
+         Скопировано файлов:         6.
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\sansation.ttf
+         Скопировано файлов:         1.
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\Jump.ogg
+         D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\main_theme.ogg
+         Скопировано файлов:         2.
+       FinalizeBuildStatus:
+         Deleting file "Debug\MyProject.unsuccessfulbuild".
+         Touching "Debug\MyProject.lastbuildstate".
+     1>Done Building Project "D:\Мои документы\Visual Studio 2010\Projects\MyProject\MyProject\MyProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
